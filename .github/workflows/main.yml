@@ -1,0 +1,20 @@
+            - name: Setup PHP Action
+  # You may pin to the exact commit or the version.
+  # uses: shivammathur/setup-php@c665c7a15b5295c2488ac8a87af9cb806cd72198
+  uses: shivammathur/setup-php@2.30.4
+  with:
+    # Setup PHP version.
+    php-version: # optional
+    # Setup PHP version from a file.
+    php-version-file: # optional
+    # Setup PHP extensions.
+    extensions: # optional
+    # Set base ini file.
+    ini-file: # optional, default is production
+    # Add values to php.ini.
+    ini-values: # optional
+    # Setup code coverage driver.
+    coverage: # optional
+    # Setup popular tools globally.
+    tools: # optional
+          
